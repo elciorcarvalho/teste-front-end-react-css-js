@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "title": "Obra Prima",
+    "rating": 4.8,
+    "ingredients": "Preciosa combinação de presunto, palmito, champignon e catupiry",
+    "price": 20,
+    "promocaoDoDia": false,
+    "image": {
+      "src": "/assets/products/pz001.jpg",
+      "alt": "pizza de bauru"
+    }
+  },
+  {
+    "id": 2,
+    "title": "Portuguesa Especial",
+    "rating": 4.8,
+    "ingredients": "Receita tradicional que leva presunto picado, ovos cozidos, cebolas em lâminas e azeitonas pretas Sobre a receita tradicional, palmito, ervilhas frescas forrada com mozarela",
+    "price": 20,
+    "promocaoDoDia": false,
+    "image": {
+      "src": "/assets/products/pz002.jpg",
+      "alt": "pizza de bauru"
+    }
+  },
+  {
+    "id": 3,
+    "title": "Escarola",
+    "rating": 4.8,
+    "ingredients": "Cortes de folhas selecionadas de escarola, refogadas com alho, bacon e cobertas com mozarela",
+    "price": 20,
+    "promocaoDoDia": false,
+    "image": {
+      "src": "/assets/products/pz003.jpg",
+      "alt": "pizza de bauru"
+    }
+  },
+  {
+    "id": 4,
+    "title": "Americana",
+    "rating": 4.8,
+    "ingredients": "Mozarela, tomate, presunto e bacon sequinho com ovos cozidos",
+    "price": 20,
+    "promocaoDoDia": false,
+    "image": {
+      "src": "/assets/products/pz004.jpg",
+      "alt": "pizza de bauru"
+    }
+  },
+  {
+    "id": 5,
+    "title": "Calabresa",
+    "rating": 4.8,
+    "ingredients": "Fatias de calabresa de excelente procedência, coberta por cebolas e azeitonas pretas",
+    "price": 20,
+    "promocaoDoDia": false,
+    "image": {
+      "src": "/assets/products/pz005.jpg",
+      "alt": "pizza de bauru"
+    }
+  },
+  {
+    "id": 6,
+    "title": "Toscana",
+    "rating": 4.8,
+    "ingredients": "Intenso paladar da Itália com mozarela, fatias de calabresa, parmesão e salsa",
+    "price": 20,
+    "promocaoDoDia": false,
+    "image": {
+      "src": "/assets/products/pz006.jpg",
+      "alt": "pizza de bauru"
+    }
+  }
+]

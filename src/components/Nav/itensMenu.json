@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "rotulo": "Recheio"
+  },
+  {
+    "id": 2,
+    "rotulo": "Massa"
+  },
+  {
+    "id": 3,
+    "rotulo": "Tamanho"
+  },
+  {
+    "id": 4,
+    "rotulo": "Ingredientes"
+  }
+]

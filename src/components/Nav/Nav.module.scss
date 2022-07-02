@@ -1,0 +1,58 @@
+@import "styles/variable";
+@import "styles/breakpoint";
+
+.nav {
+  &__lista {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__item {
+    padding: 18px 20px;
+    text-align: center;
+    width: 200px;
+    background-color: $gray;
+    font-weight: 500;
+
+    &--active {
+      background-color: $green;
+      color: $white;
+    }
+
+    &:hover,
+    &:focus {
+      background-color: $grayHard;
+      color: $textDefault;
+    }
+
+    &:first-child {
+      border-radius: 5px 5px 0 0;
+    }
+
+    &:last-child {
+      border-radius: 0 0 5px 5px;
+    }
+  }
+}
+
+@media screen and (min-width: $desktop_md) {
+  .nav {
+    &__lista {
+      flex-direction: row;
+    }
+
+    &__item {
+      &:first-child {
+        border-radius: 5px 0 0 5px;
+      }
+
+      &:last-child {
+        border-radius: 0 5px 5px 0;
+      }
+    }
+  }
+}

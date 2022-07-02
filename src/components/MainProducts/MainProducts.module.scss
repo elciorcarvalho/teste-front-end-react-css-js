@@ -1,0 +1,18 @@
+.section_pizzas {
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+
+  &__title {
+    font-size: 1.6rem;
+  }
+
+  &__link {
+    text-transform: uppercase;
+  }
+
+  &__grid {
+  }
+}

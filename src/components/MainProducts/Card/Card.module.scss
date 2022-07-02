@@ -1,0 +1,55 @@
+@import "styles/variable";
+
+.card {
+  margin: 12px;
+  background-color: $white;
+  border-radius: 12px;
+  box-shadow: $boxShadow;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  column-gap: 12px;
+
+  &__image {
+    width: 40vw;
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+  }
+
+  &__description {
+    padding: 9px;
+  }
+
+  &__rating {
+    font-size: 0.9rem;
+    
+    &--icon {
+      fill: $yellow;
+      margin-right: 5px;
+    }
+  }
+
+  &__title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: $brown;
+    margin: 8px 0 7px 0;
+  }
+
+  &__ingredients {
+    font-size: 0.9rem;
+  }
+
+  &__shop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+  }
+
+  &__price {
+    font-weight: 600;
+  }
+  
+}

@@ -1,0 +1,27 @@
+@import "styles/variable";
+
+.btnAdd {
+  background-color: $yellow;
+  height: 30px;
+  width: 30px;
+  padding: 4px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: $boxShadow;
+
+  &__icon {
+    width: 1.3rem;
+    height: 1.3rem;
+    stroke: $brown;
+
+    &--secondary {
+      stroke: $red;
+    }
+  }
+
+  &--secondary {
+    background-color: $white;
+  }
+}

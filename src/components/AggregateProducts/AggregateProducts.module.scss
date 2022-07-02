@@ -1,0 +1,23 @@
+@import 'styles/variable';
+
+.section_drinks {
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+
+  &__title {
+    font-size: 1.3rem;
+    font-weight: 400;
+  }
+
+  &__link {
+    text-decoration: none;
+    
+    &--text {
+      color: $red;
+      font-weight: 600;
+    }
+  }
+}

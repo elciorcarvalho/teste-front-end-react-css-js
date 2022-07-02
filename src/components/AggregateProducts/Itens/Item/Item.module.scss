@@ -1,0 +1,38 @@
+@import 'styles/variable';
+
+.item {
+
+  &__image {
+    height: 45vw;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 9px;
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    border-radius: 7px;
+    background-color: $gray;
+    box-shadow: $boxShadow;
+  }
+
+  &__description {
+    margin-top: 18px;
+  }
+
+  &__price {
+    font-weight: 600;
+    margin-bottom: 6px 0;
+  }
+
+  &__title {
+    font-size: 0.9rem;
+    margin: 6px 0;
+  }
+
+  &__details {
+    font-size: 0.8rem;
+    margin: 6px 0;
+    color: #9b9b9b;
+  }
+}

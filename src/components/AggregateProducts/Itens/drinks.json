@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "title": "Xarope de Maçã Verde Monin Garrafa 700ml",
+    "price": 64.79,
+    "detail": "Garrafa 700ml",
+    "image": {
+      "src": "/assets/products/drink001.jpeg",
+      "alt": "Xarope de mação Monin"
+    }
+  },
+  {
+    "id": 2,
+    "title": "Xarope Monin Tangerina Garrafa 700ml",
+    "price": 64.79,
+    "detail": "Garrafa 700ml",
+    "image": {
+      "src": "/assets/products/drink002.png",
+      "alt": "Xarope de mação Monin"
+    }
+  },
+  {
+    "id": 3,
+    "title": "Xarope Monin Cranberry 700ml",
+    "price": 64.79,
+    "detail": "Garrafa 700ml",
+    "image": {
+      "src": "/assets/products/drink003.jpg",
+      "alt": "Xarope de mação Monin"
+    }
+  },
+  {
+    "id": 4,
+    "title": "Xarope Monin Limão Siciliano Garrafa 700ml",
+    "price": 64.79,
+    "detail": "Garrafa 700ml",
+    "image": {
+      "src": "/assets/products/drink004.jpeg",
+      "alt": "Xarope de mação Monin"
+    }
+  },
+  {
+    "id": 5,
+    "title": "Aperitivo Aperol 750ml",
+    "price": 64.79,
+    "detail": "Produto para maiores de 18 anos",
+    "image": {
+      "src": "/assets/products/drink005.jpeg",
+      "alt": "Aperitivo Aperol"
+    }
+  },
+  {
+    "id": 6,
+    "title": "Tempero Tozan Chef Azuma Kirigari Garrafa 500ml",
+    "price": 19.99,
+    "detail": "Garrafa 500ml",
+    "image": {
+      "src": "/assets/products/drink006.jpg",
+      "alt": "Xarope de mação Monin"
+    }
+  },
+  {
+    "id": 7,
+    "title": "Vodka Smirnoff Red Garrafa de 1l",
+    "price": 48.59,
+    "detail": "Produto para maiores de 18 anos",
+    "image": {
+      "src": "/assets/products/drink007.png",
+      "alt": "Vodka Smirnoff Red"
+    }
+  }
+]
