@@ -1,4 +1,7 @@
-.section_pizzas {
+@import "styles/variable";
+@import "styles/breakpoint";
+
+.article_pizzas {
   &__header {
     display: flex;
     justify-content: space-between;
@@ -11,8 +14,24 @@
 
   &__link {
     text-transform: uppercase;
+    text-decoration: none;
   }
 
   &__grid {
+  }
+}
+
+@media screen and (min-width: $desktop_md) {
+  .article_pizzas {
+    &__wrapper {
+      display: grid;
+      grid-template-columns: auto auto;
+    }
+
+    &__header {
+      max-width: 800px;
+      margin-left: auto;
+      margin-right: auto;
+    }
   }
 }

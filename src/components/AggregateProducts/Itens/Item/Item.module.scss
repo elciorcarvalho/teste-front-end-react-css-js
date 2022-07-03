@@ -1,4 +1,5 @@
-@import 'styles/variable';
+@import "styles/variable";
+@import "styles/breakpoint";
 
 .item {
 
@@ -34,5 +35,13 @@
     font-size: 0.8rem;
     margin: 6px 0;
     color: #9b9b9b;
+  }
+}
+
+@media screen and (min-width: $desktop_md) {
+  .item{
+    &__image {
+      height: 13vw;
+    }
   }
 }

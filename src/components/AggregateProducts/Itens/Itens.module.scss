@@ -1,5 +1,14 @@
+@import "styles/variable";
+@import "styles/breakpoint";
+
 .itens {
     display: grid;
     grid-template-columns: auto auto;
     gap: 12px 12px;
+}
+
+@media screen and (min-width: $desktop_md) {
+  .itens{
+    grid-template-columns: repeat(7, auto);
+  }
 }

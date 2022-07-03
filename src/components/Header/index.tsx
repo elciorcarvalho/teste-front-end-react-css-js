@@ -4,9 +4,11 @@ import Logo from 'components/Logo';
 
 export default function Header() {
     return (
-        <header className={styles.header}>
-            <Logo />
-            <Cart />
-        </header>
-    )
+      <header className={styles.header}>
+        <a href="#home">
+          <Logo />
+        </a>
+        <Cart />
+      </header>
+    );
 }

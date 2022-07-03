@@ -1,4 +1,5 @@
 @import "styles/variable";
+@import "styles/breakpoint";
 
 .card {
   margin: 12px;
@@ -11,7 +12,6 @@
   column-gap: 12px;
 
   &__image {
-    width: 40vw;
     background-size: cover;
     background-position: right;
     background-repeat: no-repeat;
@@ -51,5 +51,4 @@
   &__price {
     font-weight: 600;
   }
-  
 }

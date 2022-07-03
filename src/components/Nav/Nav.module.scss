@@ -2,6 +2,8 @@
 @import "styles/breakpoint";
 
 .nav {
+  cursor: pointer;
+
   &__lista {
     padding: 0;
     list-style: none;
@@ -21,6 +23,12 @@
     &--active {
       background-color: $green;
       color: $white;
+
+      &:hover,
+      &:focus {
+        background-color: $greeHover !important;
+        color: $white !important;
+      }
     }
 
     &:hover,
@@ -41,6 +49,10 @@
 
 @media screen and (min-width: $desktop_md) {
   .nav {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    
     &__lista {
       flex-direction: row;
     }
