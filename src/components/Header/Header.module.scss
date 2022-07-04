@@ -1,6 +1,16 @@
+@import 'styles/variable';
+
+
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 12px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 20px;
+
+  &__cart {
+    border-radius: 13px;
+    padding: 7px;
+    background-color: $yellow;
+    cursor: pointer;
+  }
 }

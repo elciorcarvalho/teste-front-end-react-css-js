@@ -1,0 +1,71 @@
+@import "styles/variable";
+@import "styles/breakpoint";
+
+.cartItem {
+    border-radius: 10px;
+    box-shadow: $boxShadow;
+    margin-bottom: 15px;
+    overflow: hidden;
+    background-color: $white;
+
+  &__image {
+    height: 100px;
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+  }
+
+  &__info {
+    padding: 0 15px;
+  }
+
+  &__title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #591b10;
+    margin: 8px 0 7px 0;
+  }
+
+  &__price {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  &__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid $grayHard;
+    background-color: $green;
+
+    &--icon {
+      stroke: $white;
+      width: 1.3rem;
+      height: 1.3rem;
+    }
+    
+    &--add{
+      border-radius: 0 5px 5px 0;
+    }
+
+    &--remove {
+      border-radius: 5px 0 0 5px;
+    }
+  } 
+
+  &__amount {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &--title {
+      margin-right: 12px;
+    }
+
+    &--value {
+      padding: 0 12px;
+      font-size: 1.1rem;
+    }
+  }
+}

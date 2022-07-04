@@ -1,10 +1,19 @@
 import { IoArrowForward } from "react-icons/io5";
 import styles from "./MainProducts.module.scss";
 
-import menu from "./products.json";
 import Card from "./Card";
+// models
+import products from "services/products.json";
+import drinks from "services/drinks.json";
+// type
+type Product = typeof products[0];
+type Drink = typeof drinks[0];
 
-export default function MainProducts() {
+interface Props {
+  handleAddToCart: (addedItem: Product | Drink) => void;
+}
+
+export default function MainProducts({ handleAddToCart }: Props) {
   return (
     <article className={styles.article_pizzas}>
       <div className={styles.article_pizzas__header}>
@@ -14,8 +23,12 @@ export default function MainProducts() {
         </a>
       </div>
       <section className={styles.article_pizzas__wrapper}>
-        {menu.map((item) => (
-          <Card key={item.id} {...item} />
+        {products.map((item) => (
+          <Card
+            key={item.id}
+            handleAddToCart={handleAddToCart}
+            item= {item}
+          />
         ))}
       </section>
     </article>

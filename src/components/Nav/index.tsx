@@ -1,6 +1,6 @@
 import { useState } from "react";
 import classNames from "classnames";
-import itens from "./itensMenu.json";
+import itens from "services/itensMenu.json";
 import styles from "./Nav.module.scss";
 
 type IItem = typeof itens[0];

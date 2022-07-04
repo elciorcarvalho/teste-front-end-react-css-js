@@ -10,6 +10,7 @@
   justify-content: center;
   align-items: center;
   box-shadow: $boxShadow;
+  cursor: pointer;
 
   &__icon {
     width: 1.3rem;
@@ -19,9 +20,17 @@
     &--secondary {
       stroke: $red;
     }
+
+    &--promo {
+      stroke: $white;
+    }
   }
 
   &--secondary {
     background-color: $white;
+  }
+
+  &--promo {
+    background-color: $green;
   }
 }

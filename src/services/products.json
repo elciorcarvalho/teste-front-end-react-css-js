@@ -1,21 +1,21 @@
 [
   {
-    "id": 1,
+    "id": "pzz001",
     "title": "Obra Prima",
     "rating": 4.8,
-    "ingredients": "Preciosa combinação de presunto, palmito, champignon e catupiry",
+    "detail": "Preciosa combinação de presunto, palmito, champignon e catupiry",
     "price": 20,
-    "promocaoDoDia": false,
+    "promocaoDoDia": true,
     "image": {
       "src": "/assets/products/pz001.jpg",
       "alt": "pizza de bauru"
     }
   },
   {
-    "id": 2,
+    "id": "pzz002",
     "title": "Portuguesa Especial",
     "rating": 4.8,
-    "ingredients": "Receita tradicional que leva presunto picado, ovos cozidos, cebolas em lâminas e azeitonas pretas Sobre a receita tradicional, palmito, ervilhas frescas forrada com mozarela",
+    "detail": "Receita tradicional que leva presunto picado, ovos cozidos, cebolas em lâminas e azeitonas pretas Sobre a receita tradicional, palmito, ervilhas frescas forrada com mozarela",
     "price": 20,
     "promocaoDoDia": false,
     "image": {
@@ -24,10 +24,10 @@
     }
   },
   {
-    "id": 3,
+    "id": "pzz003",
     "title": "Escarola",
     "rating": 4.8,
-    "ingredients": "Cortes de folhas selecionadas de escarola, refogadas com alho, bacon e cobertas com mozarela",
+    "detail": "Cortes de folhas selecionadas de escarola, refogadas com alho, bacon e cobertas com mozarela",
     "price": 20,
     "promocaoDoDia": false,
     "image": {
@@ -36,10 +36,10 @@
     }
   },
   {
-    "id": 4,
+    "id": "pzz004",
     "title": "Americana",
     "rating": 4.8,
-    "ingredients": "Mozarela, tomate, presunto e bacon sequinho com ovos cozidos",
+    "detail": "Mozarela, tomate, presunto e bacon sequinho com ovos cozidos",
     "price": 20,
     "promocaoDoDia": false,
     "image": {
@@ -48,10 +48,10 @@
     }
   },
   {
-    "id": 5,
+    "id": "pzz005",
     "title": "Calabresa",
     "rating": 4.8,
-    "ingredients": "Fatias de calabresa de excelente procedência, coberta por cebolas e azeitonas pretas",
+    "detail": "Fatias de calabresa de excelente procedência, coberta por cebolas e azeitonas pretas",
     "price": 20,
     "promocaoDoDia": false,
     "image": {
@@ -60,10 +60,10 @@
     }
   },
   {
-    "id": 6,
+    "id": "pzz006",
     "title": "Toscana",
     "rating": 4.8,
-    "ingredients": "Intenso paladar da Itália com mozarela, fatias de calabresa, parmesão e salsa",
+    "detail": "Intenso paladar da Itália com mozarela, fatias de calabresa, parmesão e salsa",
     "price": 20,
     "promocaoDoDia": false,
     "image": {

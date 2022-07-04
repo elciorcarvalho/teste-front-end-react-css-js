@@ -1,7 +1,43 @@
-@import 'styles/variable';
+@import "styles/variable";
+@import "styles/breakpoint";
 
 .cart {
-    border-radius: 13px;
-    padding: 7px;
-    background-color: $yellow;
+  position: absolute;
+  background-color: $white;
+  box-shadow: $boxShadow;
+  padding: 45px;
+  z-index: 10;
+  height: auto;
+  width: 350px;
+  right: 0vw;
+  top: 0;
+  display: none;
+  transition: 0.5s;
+
+  &__title {
+    font-size: 1.6rem;
+  }
+
+  &--opened {
+    display: block;
+  }
+
+  &__close {
+    float: right;
+    cursor: pointer;
+    height: 1.7rem;
+    width: 1.7rem;
+    margin-bottom: 12px;
+    stroke: $red;
+  }
+
+  &__total {
+    box-shadow: $boxShadow;
+    border-radius: 8px;
+    padding: 12px;
+    background-color: $red;
+    color: $white;
+    text-align: center;
+    font-size: 1.5rem;
+  }
 }

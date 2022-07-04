@@ -1,8 +1,9 @@
 [
   {
-    "id": 1,
+    "id": "dnk001",
     "title": "Xarope de Maçã Verde Monin Garrafa 700ml",
     "price": 64.79,
+    "promocaoDoDia": true,
     "detail": "Garrafa 700ml",
     "image": {
       "src": "/assets/products/drink001.jpeg",
@@ -10,9 +11,10 @@
     }
   },
   {
-    "id": 2,
+    "id": "dnk002",
     "title": "Xarope Monin Tangerina Garrafa 700ml",
     "price": 64.79,
+    "promocaoDoDia": false,
     "detail": "Garrafa 700ml",
     "image": {
       "src": "/assets/products/drink002.png",
@@ -20,9 +22,10 @@
     }
   },
   {
-    "id": 3,
+    "id": "dnk003",
     "title": "Xarope Monin Cranberry 700ml",
     "price": 64.79,
+    "promocaoDoDia": false,
     "detail": "Garrafa 700ml",
     "image": {
       "src": "/assets/products/drink003.jpg",
@@ -30,9 +33,10 @@
     }
   },
   {
-    "id": 4,
+    "id": "dnk004",
     "title": "Xarope Monin Limão Siciliano Garrafa 700ml",
     "price": 64.79,
+    "promocaoDoDia": false,
     "detail": "Garrafa 700ml",
     "image": {
       "src": "/assets/products/drink004.jpeg",
@@ -40,9 +44,10 @@
     }
   },
   {
-    "id": 5,
+    "id": "dnk005",
     "title": "Aperitivo Aperol 750ml",
     "price": 64.79,
+    "promocaoDoDia": false,
     "detail": "Produto para maiores de 18 anos",
     "image": {
       "src": "/assets/products/drink005.jpeg",
@@ -50,9 +55,10 @@
     }
   },
   {
-    "id": 6,
+    "id": "dnk006",
     "title": "Tempero Tozan Chef Azuma Kirigari Garrafa 500ml",
     "price": 19.99,
+    "promocaoDoDia": false,
     "detail": "Garrafa 500ml",
     "image": {
       "src": "/assets/products/drink006.jpg",
@@ -60,9 +66,10 @@
     }
   },
   {
-    "id": 7,
+    "id": "dnk007",
     "title": "Vodka Smirnoff Red Garrafa de 1l",
     "price": 48.59,
+    "promocaoDoDia": false,
     "detail": "Produto para maiores de 18 anos",
     "image": {
       "src": "/assets/products/drink007.png",
